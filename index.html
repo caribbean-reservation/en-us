@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book your dream cruise with Royal Caribbean Reservations™. Call +1 (888) 230-8925 for exclusive deals on luxury cruises, family vacations, and romantic getaways. Royal Caribbean® offers world-class amenities and unforgettable experiences.">
+    <title>Royal® Caribbean℗ Reservations℠ | Book Now +1 (888) 230-8925 | Luxury Cruises</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: #fff;
+            background-color: #0a2342;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .hero {
+            position: relative;
+            height: 100vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                        url('https://www.royalcaribbean.com/content/dam/royal/resources/destinations/caribbean-islands/caribbean-islands-beach-palm-trees.jpg') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+        
+        .logo {
+            max-width: 300px;
+            margin-bottom: 30px;
+            animation: fadeInDown 1s ease-out;
+        }
+        
+        .content {
+            max-width: 800px;
+            background-color: rgba(10, 35, 66, 0.8);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            animation: fadeInUp 1s ease-out;
+        }
+        
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ffb347;
+        }
+        
+        h1 span {
+            font-size: 0.8em;
+            vertical-align: super;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        
+        .highlight {
+            color: #ffb347;
+            font-weight: bold;
+        }
+        
+        .phone-container {
+            margin: 30px 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #ffb347, #ffcc33);
+            border-radius: 50px;
+            display: inline-block;
+            animation: pulse 2s infinite;
+            transform-style: preserve-3d;
+        }
+        
+        .phone-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #0a2342;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .phone-number:hover {
+            transform: scale(1.05);
+            color: #fff;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #ff5e5b;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(255, 94, 91, 0.4);
+        }
+        
+        .cta-button:hover {
+            background-color: #ff3f3a;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 94, 91, 0.6);
+        }
+        
+        .ship-image {
+            max-width: 600px;
+            margin: 30px auto;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        footer {
+            background-color: #0a2342;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+        
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(255, 179, 71, 0.7);
+            }
+            70% {
+                transform: scale(1.05);
+                box-shadow: 0 0 0 15px rgba(255, 179, 71, 0);
+            }
+            100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(255, 179, 71, 0);
+            }
+        }
+        
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .phone-number {
+                font-size: 1.5rem;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <img src="https://www.royalcaribbean.com/content/dam/royal/resources/misc/royal-caribbean-logo.png" alt="Royal Caribbean Logo" class="logo">
+        
+        <div class="content">
+            <h1>Royal® Caribbean℗ Reservations℠</h1>
+            
+           
+            <p>Welcome to <span class="highlight">Royal Caribbean Reservations™</span>, your gateway to unforgettable cruise vacations aboard the world's most innovative ships. As the leader in global cruise vacations, Royal Caribbean® offers unparalleled experiences for families, couples, and solo travelers alike.</p>
+            
+            <p>Our fleet of spectacular ships features groundbreaking amenities like the <span class="highlight">Ultimate Abyss℠</span> (the tallest slide at sea), <span class="highlight">Central Park®</span> (with over 20,000 live plants), and <span class="highlight">Broadway-caliber entertainment</span>. Whether you're seeking thrilling adventures or relaxing retreats, we have the perfect itinerary for you.</p>
+            
+            <p>From the crystal-clear waters of the Caribbean to the majestic glaciers of Alaska, Royal Caribbean® takes you to over 300 destinations across 72 countries. Enjoy world-class dining, spacious staterooms, and exceptional service that has made us the <span class="highlight">#1 rated cruise line</span> year after year.</p>
+            
+            <p>Our <span class="highlight">Perfect Day at CocoCay℠</span> private island is revolutionizing the private island experience with overwater cabanas, the tallest waterslide in North America, and the Caribbean's largest freshwater pool. It's just one example of how we're redefining vacation experiences.</p>
+            
+            <p>Specializing in family vacations, romantic getaways, and group travel, Royal Caribbean® offers something for everyone. Kids and teens will love our award-winning youth programs, while adults can enjoy our spa, casino, and nightlife options.</p>
+            
+            <div class="phone-container">
+                <a href="tel:+18882308925" class="phone-number">+1 (888) 230-8925</a>
+            </div>
+            
+            <p>Call now to speak with one of our cruise specialists who can help you find the perfect sailing for your dream vacation. Limited-time offers include <span class="highlight">free specialty dining</span>, <span class="highlight">onboard credit</span>, and <span class="highlight">discounted fares</span> on select sailings.</p>
+            
+            <a href="tel:+18882308925" class="cta-button">Book Your Cruise Today</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2025 Royal® Caribbean℗ Reservations℠. All rights reserved. Royal Caribbean International® is a registered trademark of Royal Caribbean Cruises Ltd.</p>
+        <p>Cruise itineraries, prices, and offers are subject to change without notice. Terms and conditions apply.</p>
+    </footer>
+</body>
+</html>
